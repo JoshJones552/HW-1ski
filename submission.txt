@@ -1,0 +1,3 @@
+Name: Joshua Jones
+Live URL: https://codd.cs.gsu.edu/~jjones552/web/hw1/index.html
+GitHub: https://github.com/JoshJones552/HW-1ski

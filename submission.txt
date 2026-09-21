@@ -1,3 +1,4 @@
 Name: Joshua Jones
-Live URL: https://codd.cs.gsu.edu/~jjones552/web/hw1/index.html
+Live URL: https://codd.cs.gsu.edu/~jjones552/hw1-2/
 GitHub: https://github.com/JoshJones552/HW-1ski
+Notes: Homework 1 personal homepage completed and uploaded. 

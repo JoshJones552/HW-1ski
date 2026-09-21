@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="480" viewBox="0 0 480 480">
+  <rect width="480" height="480" fill="#b9430b"/>
+  <circle cx="240" cy="240" r="190" fill="none" stroke="#f6f3ec" stroke-width="1"/>
+  <circle cx="240" cy="240" r="160" fill="none" stroke="#f6f3ec" stroke-width="1"/>
+  <path d="M0 240h480M240 0v480" stroke="#f6f3ec" stroke-width="1"/>
+  <rect x="72" y="136" width="336" height="208" fill="#b9430b"/>
+  <text x="240" y="304" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="182" font-weight="bold" letter-spacing="-12" fill="#f6f3ec">JJ</text>
+  <text x="26" y="36" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="2" fill="#f6f3ec">JOSHUA JONES</text>
+  <text x="454" y="452" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="2" fill="#f6f3ec">COMPUTER SCIENCE / GSU</text>
+</svg>

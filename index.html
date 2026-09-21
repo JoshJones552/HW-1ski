@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Joshua Jones's personal homepage and web programming coursework at Georgia State University.">
+  <title>Joshua Jones | Personal Homepage</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="wordmark" href="#profile" aria-label="Joshua Jones, back to profile">JJ<span>.</span></a>
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="#profile">Profile</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#coursework">Coursework</a></li>
+          <li><a href="#interests">Interests</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <!-- Profile: an initials image is used instead of a personal photograph. -->
+    <section class="hero" id="profile" aria-labelledby="profile-title">
+      <div class="hero-copy">
+        <p class="eyebrow">Georgia State University / Computer Science</p>
+        <h1 id="profile-title">Joshua<br><span>Jones.</span></h1>
+        <p class="intro">A computer science student with a creative side.</p>
+        <p>I enjoy exploring technology, editing videos, and turning ideas into projects. Welcome to my personal homepage and collection of coursework.</p>
+        <a class="button" href="#coursework">Explore my coursework <span aria-hidden="true">&#8599;</span></a>
+      </div>
+      <figure class="profile-art">
+        <img src="images/profile.svg" width="480" height="480" alt="Blue and cream JJ initials graphic representing Joshua Jones">
+        <figcaption>Learning. Creating. Improving.</figcaption>
+      </figure>
+    </section>
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <div><p class="eyebrow">01 / My background</p><h2 id="about-title">About me</h2></div>
+      <div class="section-copy">
+        <p>I am studying computer science at Georgia State University. My academic interests include web programming and cybersecurity, and I enjoy seeing how technical concepts become useful applications. Outside of school, I spend time creating videos and exploring music, movies, and animation. My goal is to strengthen my programming skills and create projects that combine technology with thoughtful design.</p>
+        <dl class="facts">
+          <div><dt>University</dt><dd>Georgia State University</dd></div>
+          <div><dt>Field of study</dt><dd>Computer Science</dd></div>
+          <div><dt>Current focus</dt><dd>HTML &amp; CSS</dd></div>
+        </dl>
+      </div>
+    </section>
+    <section class="section" id="coursework" aria-labelledby="coursework-title">
+      <p class="eyebrow">02 / Learning in practice</p>
+      <h2 id="coursework-title">Coursework &amp; assignments</h2>
+      <p class="section-lead">A growing collection of work from CSC 4370: Web Programming.</p>
+      <div class="projects">
+        <article class="project featured">
+          <p class="project-number">HW / 01</p>
+          <h3>Personal homepage</h3>
+          <p>This page brings together a personal introduction, coursework, and interests using semantic HTML and an external CSS stylesheet.</p>
+          <p class="tag">HTML &amp; CSS</p>
+          <a href="#profile">View this homepage <span aria-hidden="true">&#8599;</span></a>
+        </article>
+        <article class="project">
+          <p class="project-number">UP NEXT</p>
+          <h3>Future assignments</h3>
+          <p>New coursework will be added here as I complete it throughout the semester.</p>
+          <p class="tag">Coming soon</p>
+        </article>
+      </div>
+    </section>
+    <section class="section" id="interests" aria-labelledby="interests-title">
+      <p class="eyebrow">03 / Beyond the classroom</p>
+      <h2 id="interests-title">Hobbies &amp; interests</h2>
+      <ul class="interests-list">
+        <li><span class="interest-number" aria-hidden="true">01</span><div><h3>Video creation</h3><p>Developing ideas, editing clips, and experimenting with visual storytelling.</p></div></li>
+        <li><span class="interest-number" aria-hidden="true">02</span><div><h3>Movies &amp; animation</h3><p>Watching films, anime, and cartoons, with an interest in characters and how stories are told.</p></div></li>
+        <li><span class="interest-number" aria-hidden="true">03</span><div><h3>Music</h3><p>Discovering artists, listening to hip-hop, and enjoying live performances.</p></div></li>
+      </ul>
+    </section>
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <p class="eyebrow">04 / Stay connected</p>
+      <h2 id="contact-title">Let’s connect.</h2>
+      <p>Interested in my coursework or creative projects? You can find my code and follow my progress on GitHub.</p>
+      <a class="button" href="https://github.com/JoshJones552">Visit my GitHub &#8599;</a>
+      <p><a class="repository-link" href="https://github.com/JoshJones552/HW-1ski">View the source for this homepage</a></p>
+    </section>
+  </main>
+  <footer class="site-footer"><p>&copy; 2026 Joshua Jones <span>CSC 4370 · Homework 1</span></p><a href="#profile">Back to top &#8593;</a></footer>
+</body>
+</html>

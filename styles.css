@@ -1,0 +1,88 @@
+/* External stylesheet for Joshua Jones's HW1 personal homepage. */
+* { box-sizing: border-box; }
+html { scroll-padding-top: 7rem; }
+body { margin: 0; background: #f6f3ec; color: #172033; font-family: Arial, Helvetica, sans-serif; font-size: 17px; line-height: 1.7; }
+a { color: #1745bf; text-underline-offset: 5px; }
+a:hover { text-decoration-thickness: 3px; }
+a:focus-visible { outline: 3px solid #1745bf; outline-offset: 5px; }
+.skip-link { position: absolute; top: -100px; left: 20px; padding: 12px 20px; background: #f6f3ec; z-index: 10; }
+.skip-link:focus { top: 12px; }
+.site-header { position: sticky; top: 0; z-index: 5; background: #f6f3ec; border-bottom: 1px solid #d1d2d2; }
+.header-inner { max-width: 1160px; margin: auto; padding: 15px 30px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+.wordmark { color: #172033; font-size: 32px; font-weight: 900; text-decoration: none; letter-spacing: -3px; }
+.wordmark span { color: #1745bf; }
+nav ul { display: flex; flex-wrap: wrap; gap: 4px 18px; list-style: none; padding: 0; margin: 0; }
+nav a { display: block; padding: 10px 0; color: #172033; font-size: 14px; font-weight: bold; text-decoration: none; }
+nav a:hover, nav a:focus-visible { color: #1745bf; text-decoration: underline; }
+main { max-width: 1160px; padding: 0 30px; margin: auto; }
+.hero { padding: 78px 0 72px; display: grid; grid-template-columns: 1.2fr 1fr; gap: 64px; align-items: center; }
+.eyebrow { font-size: 12px; font-weight: bold; letter-spacing: 1.7px; text-transform: uppercase; color: #1745bf; margin: 0 0 18px; }
+h1, h2, h3 { line-height: 1.1; }
+h1 { font-size: 88px; letter-spacing: -5px; margin: 0 0 28px; }
+h1 span { color: #1745bf; }
+.intro { font-size: 23px; font-weight: bold; line-height: 1.4; }
+.hero-copy > p:not(.eyebrow) { max-width: 520px; }
+.button { display: inline-block; padding: 13px 22px; background: #1745bf; color: #f6f3ec; font-weight: bold; text-decoration: none; margin-top: 16px; border: 2px solid #1745bf; }
+.button:hover { background: #172033; border-color: #172033; }
+.button span { margin-left: 18px; }
+.profile-art { margin: 0; transform: rotate(3deg); }
+.profile-art img { display: block; width: 100%; height: auto; border: 1px solid #172033; box-shadow: 12px 12px 0 #172033; }
+.profile-art figcaption { margin-top: 24px; text-align: right; font-size: 12px; letter-spacing: 1px; }
+.section { border-top: 1px solid #d1d2d2; padding: 58px 0; }
+h2 { font-size: 38px; letter-spacing: -1.2px; margin: 0 0 24px; }
+h3 { font-size: 24px; margin: 0 0 16px; }
+.about { display: grid; grid-template-columns: 1fr 1.8fr; gap: 48px; }
+.section-copy > p { margin-top: 0; }
+.facts { display: flex; flex-wrap: wrap; gap: 24px; margin: 30px 0 0; }
+dt { font-size: 11px; text-transform: uppercase; letter-spacing: 1px; font-weight: bold; color: #1745bf; }
+dd { margin: 3px 0 0; font-size: 14px; }
+.section-lead { margin-top: -8px; margin-bottom: 30px; }
+.projects { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+.project { padding: 32px; border: 1px solid #d1d2d2; }
+.featured { border-top: 5px solid #1745bf; }
+.project-number { font-family: monospace; font-size: 14px; color: #1745bf; margin: 0 0 32px; }
+.tag { display: table; padding: 3px 10px; border: 1px solid #d1d2d2; font-size: 12px; font-weight: bold; }
+.project a { display: inline-block; margin-top: 12px; font-weight: bold; }
+.interests-list { list-style: none; padding: 0; margin: 0; }
+.interests-list li { display: flex; gap: 26px; border-bottom: 1px solid #d1d2d2; padding: 24px 0; }
+.interests-list li:last-child { border-bottom: 0; padding-bottom: 0; }
+.interest-number { color: #1745bf; font-family: monospace; font-size: 18px; }
+.interests-list h3 { font-size: 23px; margin: 0 0 8px; }
+.interests-list p { margin: 0; }
+.contact { background: #172033; color: #f6f3ec; padding: 44px; margin-bottom: 48px; border: 0; }
+.contact .eyebrow { color: #f6f3ec; }
+.contact h2 { font-size: 48px; }
+.contact-pending { border-left: 3px solid #f6f3ec; padding-left: 18px; font-size: 14px; }
+.site-footer { max-width: 1160px; margin: auto; padding: 0 30px 30px; display: flex; justify-content: space-between; align-items: center; gap: 20px; font-size: 12px; }
+.site-footer p { margin: 0; }
+.site-footer span { display: block; }
+section:target { scroll-margin-top: 1rem; }
+section:target h2 { text-decoration: underline; text-decoration-color: #1745bf; text-underline-offset: 8px; }
+@media (max-width: 800px) {
+  .hero { gap: 30px; padding: 50px 0; }
+  h1 { font-size: 64px; letter-spacing: -3px; }
+  .intro { font-size: 20px; }
+  .about { grid-template-columns: 1fr; gap: 8px; }
+  .header-inner { gap: 12px; }
+  nav ul { gap: 2px 12px; }
+}
+@media (max-width: 580px) {
+  html { scroll-padding-top: 1rem; }
+  .site-header { position: static; }
+  .header-inner { flex-direction: column; align-items: flex-start; padding: 12px 22px; }
+  nav ul { gap: 0 16px; }
+  nav a { font-size: 13px; }
+  main { padding: 0 22px; }
+  .hero { grid-template-columns: 1fr; gap: 40px; padding: 38px 0 44px; }
+  h1 { font-size: 72px; }
+  .profile-art { max-width: 320px; width: 90%; margin: 0 auto; transform: none; }
+  .section { padding: 38px 0; }
+  h2 { font-size: 32px; }
+  .projects { grid-template-columns: 1fr; }
+  .project { padding: 26px; }
+  .contact { padding: 30px 24px; }
+  .contact h2 { font-size: 38px; }
+  .site-footer { padding: 0 22px 24px; }
+}
+
+.contact .repository-link { color: #f6f3ec; }
